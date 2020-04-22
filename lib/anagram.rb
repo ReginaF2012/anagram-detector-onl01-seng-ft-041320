@@ -8,7 +8,7 @@ class Anagram
     word_array.find_all do |word|
       if word.chars.sort.join == @word.chars.sort.join
       word
-    end
+      end
     end 
   end 
 end

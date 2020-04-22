@@ -6,7 +6,9 @@ class Anagram
   
   def match(word_array)
     word_array.find_all do |word|
-      if word.split(" ").sort == @word.split(" ").sort
+      split_word = word.split(" ")
+      split_anagram = @word.split(" ")
+      if split_word.sort == split_anagraml.sort
       word
     end
     end 

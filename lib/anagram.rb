@@ -8,7 +8,7 @@ class Anagram
     word_array.find_all do |word|
       split_word = word.split(" ")
       split_anagram = @word.split(" ")
-      if split_word.sort == split_anagraml.sort
+      if split_word.sort == split_anagram.sort
       word
     end
     end 
